@@ -2,7 +2,7 @@
 
 Link to project [here](https://andres-ventura.github.io/front-end-project-demo/)
 
-Required Inputs
+### Required Inputs
 
 1. Full Name 
 2. Email
