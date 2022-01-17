@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <title>Frontend Take Home Exercise</title>
+  </head>
+  <body>
+    <!-- Form with FullName, Email, Password,Occupation and State -->
+
+    <form id="searchform" class="col-lg-3 offset-lg-4">
+      <div class="form-row">
+        <div class="col-md-4 mb-4">
+          <label for="FullName">Full Name: </label>
+          <input
+            type="text"
+            class="form-control is-invalid"
+            id="FullName"
+            placeholder="Full Name"
+            name="FullName"
+            required
+          />
+          <div class="invalid-feedback">Missing Full Name</div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="Password"> Password: </label>
+          <input
+            type="password"
+            class="form-control is-invalid"
+            id="Password"
+            placeholder="password"
+            name="Password"
+            required
+          />
+          <div class="invalid-feedback">Missing Password</div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="Email"> Email: </label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroupPrepend3">@</span>
+            </div>
+            <input
+              type="email"
+              class="form-control is-invalid"
+              id="Email"
+              placeholder="Email"
+              aria-describedby="inputGroupPrepend3"
+              name="Email "
+              required
+            />
+            <div class="invalid-feedback">Missing Email</div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="Occupation"> Occupation: </label>
+          <select
+            class="form-control is-valid"
+            id="Occupation"
+            name="Occupation"
+            required
+          ></select>
+
+          <div class="valid-feedback">Default Occupation Selected</div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="State"> State: </label>
+          <select
+            size="2"
+            class="form-control is-valid"
+            id="State"
+            name="State"
+            required
+          ></select>
+          <div class="valid-feedback">Default State Selected</div>
+        </div>
+      </div>
+
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+
+    <!-- End of Form -->
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
+
+<!-- Key if valid or not 
+Valid : class="form-control is-valid" <- in input field
+Valid : class="valid feedback" <- right after input
+invalid : class="form-control is-invalid" <- in input field
+invalid : class="invalid-feedback" <- right after input
+ respond with : missing text-->
