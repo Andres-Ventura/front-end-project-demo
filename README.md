@@ -16,10 +16,11 @@ Required Inputs
 - Provide feedback upon successful form submission
 
 ### Endpoint Validity
+<img width="262" alt="Screen Shot 2022-01-16 at 8 48 13 PM" src="https://user-images.githubusercontent.com/80918639/149710167-3c665cb2-c245-4263-a3e3-9cfe38a0b194.png">
+
 
 - inspector tool will log a 200 status code for the Post endpoint <br/>
 (no additional validation beyond this)
 <br/>
 
-
-![alt text](http://url/to/img.png)
+<img width="185" alt="Screen Shot 2022-01-16 at 8 47 51 PM" src="https://user-images.githubusercontent.com/80918639/149710110-c8c2a7f0-0038-4a2a-beef-113f33f4c669.png">
